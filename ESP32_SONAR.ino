@@ -7,8 +7,8 @@
 #include <LiquidCrystal_I2C.h>
 #include "index.h" // Include the index.h file containing your HTML content
 
-const char* ssid = "Taslima Villa"; //Your_WiFi_SSID
-const char* password = "Taslima7890"; //Your_WiFi_Password
+const char* ssid = "Your_WiFi_SSID"; 
+const char* password = "Your_WiFi_Password"; 
 const unsigned long wifiConnectTimeout = 5000; //waits 5 seconds till timeout
 
 WebServer server(80); //default HTTP port
